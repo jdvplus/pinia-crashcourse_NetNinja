@@ -21,6 +21,36 @@ const handleSubmit = () => {
       id: Math.floor(Math.random() * 10000),
     });
     newTask.value = '';
+  } else {
+    alert('please input a task!');
   }
 };
 </script>
+
+<style scoped>
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+
+form button {
+  background: #ffd859;
+  border: 0;
+  padding: 10px;
+  font-family: 'Poppins';
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+form input {
+  border: 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: #555;
+  font-size: 1em;
+}
+</style>
