@@ -1,0 +1,19 @@
+{
+  "name": "pinia_crashcourse_netninja",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server -w ./data/db.json"
+  },
+  "dependencies": {
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.6"
+  }
+}
